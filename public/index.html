@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="http://localhost:5030/socket.io/socket.io.js"></script>
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <section>
+      <div style="background: white;" onclick="setColor('white')"></div>
+      <div style="background: black;" onclick="setColor('black')"></div>
+      <div style="background: blue;" onclick="setColor('blue')"></div>
+      <div style="background: red;" onclick="setColor('red')"></div>
+      <div style="background: green;" onclick="setColor('green')"></div>
+      <div style="background: pink;" onclick="setColor('pink')"></div>
+      <div style="background: yellow;" onclick="setColor('yellow')"></div>
+      <div style="background: brown;" onclick="setColor('brown')"></div>
+      <div style="background: gray;" onclick="setColor('gray')"></div>
+    </section>
+    <canvas class="canvas">
+    </canvas>
+    <canvas class="canvash"></canvas>
+   
+  </main>
+</body>
+</html>
